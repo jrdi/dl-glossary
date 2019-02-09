@@ -27,6 +27,7 @@ Since terminology is constantly changing with new terms appearing every day this
 * [Multi Layer Perceptron (MLP)](#mlp)
 * [Pooling](#pooling)
 * [Pytorch](#pytorch)
+* [Receptive field](#receptive-field)
 * [Recurrent Neural Network (RNN)](#rnn)
 * [Relational reasoning](#relational-reasoning)
 * [Residual Networks (ResNet)](#resnet)
@@ -43,7 +44,7 @@ Since terminology is constantly changing with new terms appearing every day this
 ## Batch
 ## Batch normalization
 ## Bias
-## Capsule Network
+## Capsule Network
 ## CNN
 ## Data augmentation
 ## Dropout
@@ -59,6 +60,7 @@ Since terminology is constantly changing with new terms appearing every day this
 ## MLP
 ## Pooling
 ## Pytorch
+## Receptive field
 ## RNN
 ## Relational reasoning
 ## ResNet
