@@ -1,4 +1,4 @@
-# Deep learning glossary
+# The Open Source Deep Learning Glossary
 
 Deep learning terminology can be difficult and overwhelming, especially to newcomers. This glossary tries to define the most commonly used terms.
 
