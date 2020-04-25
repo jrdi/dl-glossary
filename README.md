@@ -198,7 +198,9 @@ Be the first to [contribute](https://github.com/jrdi/dl-glossary/pulls)!
 ## Tensorflow
 Be the first to [contribute](https://github.com/jrdi/dl-glossary/pulls)!
 ## Vanishing gradient
-Be the first to [contribute](https://github.com/jrdi/dl-glossary/pulls)!
+The vanishing gradient problem arises in very deep Neural Networks, typically [Recurrent Neural Networks](#rnn), that use activation functions whose gradients tend to be small (in the range of 0 from 1). Because these small gradients are multiplied during backpropagation, they tend to “vanish” throughout the layers, preventing the network from learning long-range dependencies. Common ways to counter this problem is to use activation functions like [ReLUs](#relu) that do not suffer from small gradients, or use architectures like [LSTMs](#lstm) that explicitly combat vanishing gradients. The opposite of this problem is called the [exploding gradient problem](#exploding-gradient).
+
+* [On the difficulty of training recurrent neural networks](http://www.jmlr.org/proceedings/papers/v28/pascanu13.pdf)
 
 ----
 ## Resources
