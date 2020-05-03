@@ -4,6 +4,8 @@ Deep learning terminology can be difficult and overwhelming, especially to newco
 
 Since terminology is constantly changing with new terms appearing every day this glossary will be in a permanent work in progress. Feel free to edit or suggest new terms using [issues](https://github.com/jrdi/dl-glossary/issues) and [pull requests](https://github.com/jrdi/dl-glossary/pulls).
 
+## Table of Contents
+
 * [Activation function](#activation-function)
 * [Affine layer](#affine-layer)
 * [Attention mechanism](#attention-mechanism)
@@ -139,7 +141,11 @@ The Exploding Gradient Problem is the opposite of the [Vanishing Gradient Proble
 ## Feed-forward
 Be the first to [contribute](https://github.com/jrdi/dl-glossary/pulls)!
 ## GRU
-Be the first to [contribute](https://github.com/jrdi/dl-glossary/pulls)!
+The Gated Recurrent Unit is a simplified version of an LSTM unit with fewer parameters. Just like an LSTM cell, it uses a gating mechanism to allow RNNs to efficiently learn long-range dependency by preventing the [vanishing gradient problem](#vanishing-gradient). The GRU consists of a reset and update gate that determine which part of the old memory to keep vs. update with new values at the current time step.
+
+* [Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation](http://arxiv.org/abs/1406.1078v3)
+* [Recurrent Neural Network Tutorial, Part 4 – Implementing a GRU/LSTM RNN with Python and Theano](http://www.wildml.com/2015/10/recurrent-neural-network-tutorial-part-4-implementing-a-grulstm-rnn-with-python-and-theano/)
+
 ## GCN
 Be the first to [contribute](https://github.com/jrdi/dl-glossary/pulls)!
 ## GAN
@@ -163,7 +169,8 @@ Sits between the input and output layers and applies an activation function befo
 The final layer in a network. It receives input from the previous hidden layer, optionally applies an activation function, and returns an output representing your model’s prediction.
 
 ## Learning rate
-Be the first to [contribute](https://github.com/jrdi/dl-glossary/pulls)!
+The size of the steps on Gradient descent is called the learning rate. With a high learning rate we can cover more ground each step, but we risk overshooting the lowest point since the slope of the hill is constantly changing. With a very low learning rate, we can confidently move in the direction of the negative gradient since we are recalculating it so frequently. A low learning rate is more precise, but calculating the gradient is time-consuming, so it will take us a very long time to get to the bottom.
+
 ## Loss function
 
 A loss function, or cost function, is a wrapper around our model’s predict function that tells us “how good” the model is at making predictions for a given set of parameters. The loss function has its own curve and its own derivatives. The slope of this curve tells us how to change our parameters to make the model more accurate! We use the model to make predictions. We use the cost function to update our parameters. Our cost function can take a variety of forms as there are many different cost functions available. Popular loss functions include: [MSE (L2)](https://ml-cheatsheet.readthedocs.io/en/latest/loss_functions.html#mse) and [Cross-entropy Loss](https://ml-cheatsheet.readthedocs.io/en/latest/loss_functions.html#loss-cross-entropy).
